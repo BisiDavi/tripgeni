@@ -37,7 +37,9 @@ nav.menu .nav-link {
   width: 30% !important;
   margin-top: 100px;
 }
-
+p.text-muted.mr-2 {
+  margin-right: 10px;
+}
 .login form.loginForm button,
 .footer .loginButton {
   background: rgb(16, 83, 189);
@@ -144,4 +146,8 @@ footer .col-lg-6.d-flex:first-child {
   font-weight: bold;
   margin-right: -20px;
   margin-bottom: 20px;
+}
+
+footer .text-primary a {
+  color: #0d6efd !important;
 }
