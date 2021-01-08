@@ -1,0 +1,75 @@
+/* nav */
+.navbar.menu {
+  background: rgb(16, 83, 189) !important;
+}
+
+header.site-head nav.navbar {
+  background-color: rgb(26, 136, 234) !important;
+}
+
+.site-head .navbar-nav {
+  margin-right: 120px;
+}
+.site-head .container-fluid {
+  display: flex;
+  justify-content: flex-end;
+  width: 100% !important;
+}
+
+.site-head .container-fluid a.nav-link {
+  color: white;
+  margin: 0px 30px;
+}
+
+a.navbar-brand span {
+  color: rgb(23, 187, 149);
+}
+
+.navbar.menu a,
+a.navbar-brand {
+  color: white !important;
+}
+nav.menu .nav-link {
+  margin: 0px 30px;
+}
+/* login */
+.login form.loginForm {
+  width: 30% !important;
+  margin-top: 100px;
+}
+
+.login form.loginForm button {
+  background: rgb(16, 83, 189);
+  border-radius: 30px;
+}
+
+/* footer */
+footer {
+  background: black;
+}
+.footer-content.container {
+  padding: 20px 80px;
+}
+
+.footer-content.container ul li {
+  list-style: none;
+}
+
+.footer-content.container ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-content.container p {
+  color: white;
+}
+
+.socialIcon.d-flex li {
+  height: 30px;
+  width: 30px;
+  border-radius: 50% !important;
+  background-color: blue;
+  padding: 2px;
+  text-align: center;
+  margin: 0px 10px;
+}
